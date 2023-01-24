@@ -37,7 +37,7 @@ function desencriptar(stringdesencriptada){
     let matrizCodigo = [["e","enter"], ["i","imes"], ["a","ai"], ["o","ober"], ["u","ufat"]];
     stringdesencriptada = stringdesencriptada.toLowerCase()
 
-    for(let i = 0 ; i < matrizCodigo.length, i++;){
+    for(let i = 0 ; i < matrizCodigo.length; i++){
         if(stringdesencriptada.includes(matrizCodigo[i][1])){
             stringdesencriptada = stringdesencriptada.replaceAll(matrizCodigo[i][1],matrizCodigo[i][0])  
         }
